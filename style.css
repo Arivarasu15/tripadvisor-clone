@@ -98,7 +98,6 @@ body {
   margin-left: 24.5%;
   margin-right: 24.5%;
   border-radius: 30px;
-
 }
 
 .search__s2 button {
@@ -111,7 +110,6 @@ body {
   border: solid #4FA786 1px;
   font-size: 15px;
   font-weight: bold;
-
 }
 
 .search__s1 input {
@@ -147,13 +145,11 @@ body {
 .tittle {
   margin-top: 50px;
   margin-left: 50px;
-
 }
 
 .tittle h1 {
   font-size: 90px;
   line-height: 0.9;
-
 }
 
 .tittle p {
@@ -182,8 +178,6 @@ body {
   margin-right: 20px;
 }
 
-/* gallery container*/
-
 .gallery-container {
   margin-left: 13.8%;
   margin-right: 13.8%;
@@ -208,7 +202,6 @@ body {
   margin-top: 15px;
 }
 
-
 .gallery-box {
   position: relative;
   display: inline-block;
@@ -218,8 +211,6 @@ body {
   display: flex;
   justify-content: space-around;
 }
-
-
 
 .gallery-box h2 {
   position: absolute;
@@ -240,7 +231,6 @@ body {
   margin-left: 13.9%;
   margin-right: 13.9%;
   margin-bottom: 130px;
-
 }
 
 .explore-box img {
@@ -257,7 +247,6 @@ body {
   width: 250px;
   margin-top: 10px;
   padding: 3px;
-
 }
 
 .explore-tittle h2 {
@@ -294,9 +283,7 @@ body {
   margin-left: 13.9%;
   margin-right: 13.9%;
   margin-top: 15px;
-
 }
-
 
 .insp-box__s1 h3 {
   text-align: center;
@@ -308,9 +295,6 @@ body {
   background-color: #F2F1EC;
   padding-top: 2px;
 }
-
-
-
 
 .things-container {
   margin-left: 13.9%;
@@ -333,7 +317,6 @@ body {
   width: 250px;
   margin-top: 10px;
   padding: 3px;
-
 }
 
 .things-box__s1 img {
@@ -379,13 +362,10 @@ body {
   border-radius: 10px;
 }
 
-
-
 .icon-tittle p {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-
 
 .icon-box {
   position: relative;
@@ -413,8 +393,6 @@ body {
   font-size: 1.2em;
   border-radius: 4px;
 }
-
-
 
 .section-s1 img {
   width: 30px;
@@ -468,10 +446,6 @@ body {
   border-radius: 30px;
 }
 
-
-
-
-
 .collection-box img {
   width: 260px;
   height: 310px;
@@ -490,7 +464,6 @@ body {
   margin-top: 15px;
 }
 
-
 .collection-box {
   position: relative;
   display: inline-block;
@@ -500,7 +473,6 @@ body {
   display: flex;
   justify-content: space-around;
 }
-
 
 .collection-box h2 {
   position: absolute;
@@ -523,7 +495,6 @@ body {
 
 .footer-container {
   display: flex;
-
   margin-top: 80px;
   gap: 50px;
   background-color: #F2F2F2;
