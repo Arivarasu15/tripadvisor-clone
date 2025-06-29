@@ -4,10 +4,8 @@
 }
 
 body {
-
   font-family: "Gabarito", sans-serif;
   font-size: 17px;
-
 }
 
 .navbar {
@@ -194,8 +192,6 @@ body {
   border-radius: 10px;
   margin-top: 5px;
 }
-
-
 
 .gallery-tittle p {
   margin-bottom: 15px;
