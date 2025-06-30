@@ -64,7 +64,6 @@ body {
   margin-top: 65px;
   text-align: center;
   width: 100%;
-  margin-left: 30px;
 }
 
 .topics {
@@ -235,10 +234,6 @@ body {
   border-radius: 10px;
 }
 
-.explore-box {
-  display: flex;
-}
-
 .explore-box__s1 {
   width: 250px;
   margin-top: 10px;
@@ -305,10 +300,6 @@ body {
   border-radius: 10px;
 }
 
-.things-box {
-  display: flex;
-}
-
 .things-box__s1 {
   width: 250px;
   margin-top: 10px;
@@ -356,6 +347,7 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 10px;
+  display: block;
 }
 
 .icon-tittle p {
@@ -371,12 +363,6 @@ body {
 .icon-contain {
   display: flex;
   justify-content: space-around;
-}
-
-.icon-box img {
-  width: 250px;
-  height: auto;
-  display: block;
 }
 
 .icon-box h2 {
@@ -422,9 +408,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5px;
-}
-
-.section-s1 {
   text-align: center;
   max-width: 100%;
   width: fit-content;
@@ -504,4 +487,31 @@ body {
 .footer-container li {
   list-style: none;
   padding: 10px;
+}
+
+@media (max-width: 768px) {
+
+  .gallery-contain,
+  .explore-box,
+  .things-box,
+  .icon-contain,
+  .collection-contain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container {
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .img-container {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
